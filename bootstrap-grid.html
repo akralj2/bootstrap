@@ -2,43 +2,137 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Bootstrap Grid</title>
+    <title>Bootstrap Grid - Gallery</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <style type="text/css">
-    /* .pink {
-      background: pink;
-      border: 1px solid purple;
+    /* dark blue - #2c3e50
+       light gray - #ecf0f1 */
+  .row.display-flex {
+     display: flex;
+     flex-wrap: wrap;
+   }
+    body {
+      padding-top: 70px;
     }
-    .orange{
-      background: orange;
-      border: 1px dashed red;
-      height: 50px;
-    } */
     </style>
 </head>
 <body>
-  <!-- <div class="container">
-    <div class="row">
-    <div class=" col-md-3 col-sm-6 pink">
-        <div class="row">
-          <div class="col-lg-6 orange">HalfWay</div>
-          <div class="col-lg-6 orenge">HalfWay</div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#"class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Japan</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li> <a href="#">About</a></li>
+          <li> <a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1>
+      <p>Beautiful Pictures of Tokyo and Japan</p>
+    </div>
+    <div class="row display-flex">
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img src="https://source.unsplash.com/hwLAI5lRhdM">
         </div>
       </div>
-    <div class=" col-md-3 col-sm-6 pink">.col-md-1</div>
-    <div class=" col-md-3 col-sm-6 pink">.col-md-1</div>
-    <div class=" col-md-3 col-sm-6 pink">
-        <div class="row">
-          <div class="col-lg-2 orange">2/12</div>
-          <div class="col-lg-2 orange">2/12</div>
-          <div class="col-lg-2 orange">2/12</div>
-          <div class="col-lg-2 orange">2/12</div>
-          <div class="col-lg-2 orange">2/12</div>
-          <div class="col-lg-2 orange">2/12</div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img class="image" src="https://source.unsplash.com/_UIN-pFfJ7c">
         </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img class="image" src="https://source.unsplash.com/n--CMLApjfI">
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img src="https://source.unsplash.com/159p1Wsn9tE">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img src="https://source.unsplash.com/-XBAEOR2ysM">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img src="https://source.unsplash.com/pTn26knnKVw">
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img src="https://source.unsplash.com/tZ18fIxi_TA">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img src="https://source.unsplash.com/m7q5iX4L7vQ">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+         <img src="https://source.unsplash.com/wfwUpfVqrKU">
+        </div>
+      </div>
     </div>
-  </div>-->
 
 
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
