@@ -1,0 +1,9 @@
+.row.display-flex {
+   display: flex;
+   flex-wrap: wrap;
+ }
+  body {
+    padding-top: 70px;
+  }
+
+  
